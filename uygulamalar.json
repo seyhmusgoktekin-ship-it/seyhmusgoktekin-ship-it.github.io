@@ -1,0 +1,56 @@
+{
+  "surum": 1,
+  "guncelleme": "2026-10-05T17:07:04Z",
+  "uygulamalar": [
+    {
+      "id": "com.goktekin.belgelerim",
+      "ad": "Belgelerim",
+      "aciklama": "Fiş, fatura, garanti ve önemli evraklarını tara, düzenle, son tarihleri kaçırma.",
+      "ikon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/56/36/de/5636deec-83cb-11b3-2860-676820c8476a/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "ios": "https://apps.apple.com/app/id6813109295",
+      "iosBundle": "com.goktekin.belgelerim",
+      "en": {
+        "ad": "Belgelerim",
+        "aciklama": "Scan and organize receipts, bills, warranties and important documents."
+      }
+    },
+    {
+      "id": "com.goktekin.veresiyedefteri",
+      "ad": "Borç/Alacak Defteri",
+      "aciklama": "Veresiye, borç ve alacak takibi. Ücretsiz, reklamsız, hesap açmadan.",
+      "ikon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/89/c9/7b/89c97b1c-4a4b-3393-b1f5-540bedf9c95e/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "ios": "https://apps.apple.com/app/id6812956682",
+      "android": "https://play.google.com/store/apps/details?id=com.goktekin.veresiye_defteri",
+      "iosBundle": "com.goktekin.veresiyeDefteri",
+      "androidPaket": "com.goktekin.veresiye_defteri",
+      "en": {
+        "ad": "Borç/Alacak Defteri",
+        "aciklama": "Credit, debt and receivables tracking. Free, ad-free, no account opening required."
+      }
+    },
+    {
+      "id": "com.goktekin.mihrap",
+      "ad": "Mihrap: İbadet Rehberi",
+      "aciklama": "Namaz vakti, ezan, kıble, Kur'an, zikir ve dualar. Ücretsiz ve reklamsız.",
+      "ikon": "https://play-lh.googleusercontent.com/Vxp13D1VDiNGYieBb9ELx-aFqfmbFcBulOryzMiu-l-JRpB-YbLwKuu0g-g-a29n5EgT5b-mrEwB4-A0Bswtng=s256",
+      "android": "https://play.google.com/store/apps/details?id=com.goktekin.mihrap",
+      "androidPaket": "com.goktekin.mihrap",
+      "en": {
+        "ad": "Mihrap: İbadet Rehberi",
+        "aciklama": "Prayer times, call to prayer (adhan), direction of the qibla, Quran, dhikr (remembrance of God), and supplications. Free and ad-free."
+      }
+    },
+    {
+      "id": "com.goktekin.pdfimageextractor",
+      "ad": "PDF Görsel İndirici",
+      "aciklama": "PDF'deki tüm görselleri orijinal kalitede ayıklayın. Çevrimdışı, ücretsiz.",
+      "ikon": "https://play-lh.googleusercontent.com/F6EXz_cbyokPMRFj-4kVNZJtqdeMz5_FIfUiQMXHsdRiiT43u-FUAwnVHkhe-y1q-xmpKaLenyA2sxKIqTVb=s256",
+      "android": "https://play.google.com/store/apps/details?id=com.goktekin.pdf_image_extractor",
+      "androidPaket": "com.goktekin.pdf_image_extractor",
+      "en": {
+        "ad": "PDF Images: Extract & Save",
+        "aciklama": "Extract every image from your PDFs in original quality. Offline, free, no ads."
+      }
+    }
+  ]
+}
