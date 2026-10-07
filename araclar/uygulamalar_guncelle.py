@@ -11,6 +11,7 @@ import json
 import os
 import re
 import sys
+import urllib.error
 import urllib.parse
 import urllib.request
 
@@ -19,7 +20,7 @@ CIKTI = os.path.join(KOK, "uygulamalar.json")
 OZET = os.path.join(KOK, "araclar", "ozetler.json")
 
 APPLE_GELISTIRICI = "6788586066"
-PLAY_GELISTIRICI = "AG Dekor"
+PLAY_GELISTIRICI = "Şeyhmus Göktekin"
 HARIC = ("com.agdekor.",)
 UA = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126 Safari/537.36"}
 
@@ -69,14 +70,39 @@ def apple(ulke):
     return sonuc
 
 
+def play_gelistirici_sayfasi():
+    try:
+        return getir("https://play.google.com/store/apps/developer?id="
+                     + urllib.parse.quote_plus(PLAY_GELISTIRICI) + "&hl=tr&gl=TR")
+    except urllib.error.HTTPError as e:
+        if e.code != 404:
+            raise
+    # Geliştirici adı Play'de değişmiş: bilinen bir uygulamanın sayfasından yeni adresi bul.
+    eski = json.load(open(CIKTI, encoding="utf-8")) if os.path.exists(CIKTI) else {}
+    for u in eski.get("uygulamalar", []):
+        if not u.get("androidPaket"):
+            continue
+        try:
+            m = re.search(r'/store/apps/(developer\?id=[^"&]+|dev\?id=\d+)', play_sayfa(u["androidPaket"], "tr"))
+        except urllib.error.HTTPError:
+            continue
+        if m:
+            print("Play geliştirici adı değişmiş; yeni adres: " + m.group(1), file=sys.stderr)
+            return getir("https://play.google.com/store/apps/" + html.unescape(m.group(1)) + "&hl=tr&gl=TR")
+    raise RuntimeError("Play geliştirici sayfası bulunamadı (PLAY_GELISTIRICI güncel mi?)")
+
+
 def play_paketleri():
-    sayfa = getir("https://play.google.com/store/apps/developer?id="
-                  + urllib.parse.quote_plus(PLAY_GELISTIRICI) + "&hl=tr&gl=TR")
+    sayfa = play_gelistirici_sayfasi()
     return sorted({p for p in re.findall(r"details\?id=([a-zA-Z0-9_.]+)", sayfa) if not haric(p)})
 
 
+def play_sayfa(paket, dil):
+    return getir(f"https://play.google.com/store/apps/details?id={paket}&hl={dil}&gl=TR")
+
+
 def play(paket, dil):
-    sayfa = getir(f"https://play.google.com/store/apps/details?id={paket}&hl={dil}&gl=TR")
+    sayfa = play_sayfa(paket, dil)
     ad = meta(sayfa, "og:title") or paket
     ad = re.sub(r"\s+-\s+(Google Play'de Uygulamalar|Apps on Google Play)$", "", ad)
     return {
