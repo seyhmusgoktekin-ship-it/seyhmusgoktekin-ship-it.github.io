@@ -1,6 +1,6 @@
 {
   "surum": 1,
-  "guncelleme": "2026-10-11T10:50:25Z",
+  "guncelleme": "2026-10-13T11:49:58Z",
   "uygulamalar": [
     {
       "id": "com.goktekin.belgelerim",
@@ -52,6 +52,18 @@
       "en": {
         "ad": "PDF Images: Extract & Save",
         "aciklama": "Extract every image from your PDFs in original quality. Offline, free, no ads."
+      }
+    },
+    {
+      "id": "com.goktekin.suret",
+      "ad": "SURET",
+      "aciklama": "Fotoğraf düzenle; GIF, video ve PDF yap, belge tara, özel fotoğraflarını gizle",
+      "ikon": "https://play-lh.googleusercontent.com/aaAVNOS853PFrQggb_CDaUctXVnveLlTtvTiaYZeE_s7e5CRFuziHpUv8wOqWr9g1xAseJJw2vTJKyxjbVw1=s256",
+      "android": "https://play.google.com/store/apps/details?id=com.goktekin.suret",
+      "androidPaket": "com.goktekin.suret",
+      "en": {
+        "ad": "SURET",
+        "aciklama": "Edit photos, make GIFs, videos and PDFs, scan documents and hide private photos"
       }
     }
   ]
