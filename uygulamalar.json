@@ -1,6 +1,6 @@
 {
   "surum": 1,
-  "guncelleme": "2026-10-13T11:49:58Z",
+  "guncelleme": "2026-10-16T09:02:44Z",
   "uygulamalar": [
     {
       "id": "com.goktekin.belgelerim",
@@ -32,7 +32,7 @@
       "id": "com.goktekin.mihrap",
       "ad": "Mihrap: İbadet Rehberi",
       "aciklama": "Namaz vakti, ezan, kıble, Kur'an, zikir ve dualar. Ücretsiz ve reklamsız.",
-      "ikon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/6f/cc/6e/6fcc6e4e-96c6-2921-d42f-db65109edb7d/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "ikon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/cd/30/0f/cd300f84-7c7c-aaa5-e64a-115b40d64d46/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
       "ios": "https://apps.apple.com/app/id6816857330",
       "android": "https://play.google.com/store/apps/details?id=com.goktekin.mihrap",
       "iosBundle": "com.goktekin.mihrap",
