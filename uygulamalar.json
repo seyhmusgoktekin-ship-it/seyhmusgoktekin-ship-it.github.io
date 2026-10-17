@@ -1,6 +1,6 @@
 {
   "surum": 1,
-  "guncelleme": "2026-10-16T09:02:44Z",
+  "guncelleme": "2026-10-17T08:34:56Z",
   "uygulamalar": [
     {
       "id": "com.goktekin.belgelerim",
@@ -18,7 +18,7 @@
       "id": "com.goktekin.veresiyedefteri",
       "ad": "IOU Tracker: Debt Ledger",
       "aciklama": "Veresiye, borç ve alacak takibi. Ücretsiz, reklamsız, hesap açmadan.",
-      "ikon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/c2/a0/5c/c2a05cd4-d4e7-f653-17b8-4bd6aafc5030/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
+      "ikon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/e7/4e/9a/e74e9a4b-2a3a-1a50-f29a-0f47bf9c9a70/AppIcon-0-0-1x_U007emarketing-0-8-0-85-220.png/512x512bb.jpg",
       "ios": "https://apps.apple.com/app/id6812956682",
       "android": "https://play.google.com/store/apps/details?id=com.goktekin.veresiye_defteri",
       "iosBundle": "com.goktekin.veresiyeDefteri",
