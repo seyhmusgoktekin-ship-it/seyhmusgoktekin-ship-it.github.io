@@ -1,6 +1,6 @@
 {
   "surum": 1,
-  "guncelleme": "2026-10-21T09:23:02Z",
+  "guncelleme": "2026-10-24T08:53:44Z",
   "uygulamalar": [
     {
       "id": "com.goktekin.belgelerim",
@@ -44,10 +44,12 @@
     },
     {
       "id": "com.goktekin.pdfimageextractor",
-      "ad": "PDF Görsel İndirici",
+      "ad": "PDF Images: Extract & Save",
       "aciklama": "PDF'deki tüm görselleri orijinal kalitede ayıklayın. Çevrimdışı, ücretsiz.",
-      "ikon": "https://play-lh.googleusercontent.com/F6EXz_cbyokPMRFj-4kVNZJtqdeMz5_FIfUiQMXHsdRiiT43u-FUAwnVHkhe-y1q-xmpKaLenyA2sxKIqTVb=s256",
+      "ikon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ab/9b/85/ab9b85d4-2ce5-7cd5-ab3d-acf554f31fd7/AppIcon-0-0-1x_U007emarketing-0-11-0-85-220.png/512x512bb.jpg",
+      "ios": "https://apps.apple.com/app/id6817716742",
       "android": "https://play.google.com/store/apps/details?id=com.goktekin.pdf_image_extractor",
+      "iosBundle": "com.goktekin.pdfImageExtractor",
       "androidPaket": "com.goktekin.pdf_image_extractor",
       "en": {
         "ad": "PDF Images: Extract & Save",
