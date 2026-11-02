@@ -1,6 +1,6 @@
 {
   "surum": 1,
-  "guncelleme": "2026-10-30T10:52:45Z",
+  "guncelleme": "2026-11-02T12:26:34Z",
   "uygulamalar": [
     {
       "id": "com.goktekin.belgelerim",
@@ -8,7 +8,9 @@
       "aciklama": "Fiş, fatura, garanti ve önemli evraklarını tara, düzenle, son tarihleri kaçırma.",
       "ikon": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/09/58/06/0958061f-02d5-1d22-ca9c-ab09ff597e07/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
       "ios": "https://apps.apple.com/app/id6813109295",
+      "android": "https://play.google.com/store/apps/details?id=com.goktekin.belgelerim",
       "iosBundle": "com.goktekin.belgelerim",
+      "androidPaket": "com.goktekin.belgelerim",
       "en": {
         "ad": "Belgelerim",
         "aciklama": "Scan and organize receipts, bills, warranties and important documents."
