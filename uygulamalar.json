@@ -1,6 +1,6 @@
 {
   "surum": 1,
-  "guncelleme": "2026-11-04T12:10:42Z",
+  "guncelleme": "2026-11-05T12:23:41Z",
   "uygulamalar": [
     {
       "id": "com.goktekin.belgelerim",
@@ -42,6 +42,18 @@
       "en": {
         "ad": "Mihrap: İbadet Rehberi",
         "aciklama": "Prayer times, call to prayer (adhan), direction of the qibla, Quran, dhikr (remembrance of God), and supplications. Free and ad-free."
+      }
+    },
+    {
+      "id": "com.goktekin.notdefteri",
+      "ad": "Not Defteri: Hızlı Notlar",
+      "aciklama": "Aklına geleni saniyeler içinde yaz, sonra kolayca bul.",
+      "ikon": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9d/dd/94/9ddd94af-0ced-3786-b0b5-64af32c7a540/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+      "ios": "https://apps.apple.com/app/id6827060008",
+      "iosBundle": "com.goktekin.notdefteri",
+      "en": {
+        "ad": "Not Defteri: Hızlı Notlar",
+        "aciklama": "Aklına geleni saniyeler içinde yaz, sonra kolayca bul."
       }
     },
     {
